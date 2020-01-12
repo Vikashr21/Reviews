@@ -57,7 +57,7 @@ public class MovieActicity extends AppCompatActivity {
     private TextView trailersLabel;
     private TextView reviewsLabel;
     Toolbar toolbar;
-    private String Apikey="da76599caff725e6cd4042275923dcfd";
+    private String Apikey="ENTER API KEY";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
