@@ -49,7 +49,7 @@ public class TvshowActivity extends AppCompatActivity {
     private TextView reviewsLabel;
     Toolbar toolbar;
     private int tv_id;
-    private String Apikey="da76599caff725e6cd4042275923dcfd";
+    private String Apikey="ENTER API KEY";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
