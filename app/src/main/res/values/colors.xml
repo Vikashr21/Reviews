@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#039BE5</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#FFA000</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="red">#FA0000</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="movie_title">#4c4c4c</color>
+    <color name="food_title">#4c4c4c</color>
+    <color name="white">#FFF</color>
+    <color name="purple">#CB4A148C</color>
+</resources>

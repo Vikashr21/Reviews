@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:adjustViewBounds="true"
+    app:ignore="NamespaceTypo"
+
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/moviedetail"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="-11dp"
+        android:layout_toRightOf="@+id/imagecard"
+        android:elevation="5dp"
+        card_view:cardCornerRadius="7dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:paddingLeft="@dimen/movie_title_padding"
+                android:paddingTop="@dimen/movie_title_padding"
+                android:paddingRight="@dimen/movie_title_padding"
+                android:text="movie name"
+                android:textColor="@color/movie_title"
+                android:textSize="@dimen/movie_title"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/genre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/movie_title_padding"
+                android:paddingLeft="@dimen/movie_title_padding"
+                android:paddingRight="@dimen/movie_title_padding"
+                android:paddingBottom="@dimen/user_rating_padding_bottom"
+                android:text="genre"
+                android:textColor="@color/movie_title"
+                android:textSize="@dimen/user_rating" />
+
+            <TextView
+                android:id="@+id/release_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:paddingBottom="@dimen/movie_title_padding"
+                android:paddingLeft="@dimen/movie_title_padding"
+                android:paddingRight="@dimen/movie_title_padding"
+                android:text="2004"
+                android:textColor="@color/movie_title"
+                android:textSize="@dimen/user_rating"
+
+                />
+
+            <TextView
+                android:id="@+id/userrating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/movie_title_padding"
+                android:paddingRight="@dimen/movie_title_padding"
+                android:paddingBottom="@dimen/user_rating_padding_bottom"
+                android:text="8.7"
+                android:textColor="@color/colorAccent"
+                android:textSize="12dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="110dp"
+        android:layout_height="140dp"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="7dp"
+        card_view:cardCornerRadius="5dp"
+        android:id="@+id/imagecard"
+
+
+
+        >
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="110dp"
+            android:layout_height="140dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitXY" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
